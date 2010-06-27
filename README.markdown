@@ -2,7 +2,7 @@
 
 The [S5 (Simple Standards-Based Slide Show System)](http://meyerweb.com/eric/tools/s5/)
 templates bundled up into 
-a Slide Show (S9) template pack including three themes, that is, Blue, I18N and Pixel.
+a Slide Show (S9) template pack including three S5 themes, that is, Blue, I18N and Pixel.
 
 Note, the package is configured to use the following headers in `slides.html.erb`:
 
