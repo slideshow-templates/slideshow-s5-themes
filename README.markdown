@@ -1,10 +1,23 @@
-## Slide Show (S9) Template Pack - S5 Themes (Blue, I18N and Pixel)
+# S5 Themes (Blue, I18N and Pixel) - Slide Show (S9) Template Pack
+
+## What's Slide Show (S9)?
+
+A Ruby gem that lets you create slide shows and author slides in plain text
+using a wiki-style markup language that's easy-to-write and easy-to-read.
+More [Slide Show (S9) Project Site &raquo;](http://slideshow.rubyforge.org)
+
+
+## Intro
 
 The [S5 (Simple Standards-Based Slide Show System)](http://meyerweb.com/eric/tools/s5/)
 templates bundled up into 
-a Slide Show (S9) template pack including three S5 themes, that is, Blue, I18N and Pixel.
+a Slide Show (S9) template pack including
+three S5 themes, that is, Blue, I18N and Pixel.
 
-Note, the package is configured to use the following headers in `slides.html.erb`:
+
+
+Note, the S5 Themes package is configured to use the
+following headers in `slides.html.erb`:
 
     theme: blue    # change as needed values include default|blue|i18n|pixel
     author: Your Name Here
@@ -24,11 +37,16 @@ see the [Slide Show (S9) Tutorial (Blue Theme)](http://slideshow.rubyforge.org/s
 slides generated using this template pack.
  
  
-## Try It Yourself - How To Use the Template Pack
+## Try It Yourself - How To Use the S5 Themes Template Pack
 
 If you want to try it yourself, install (fetch) the new template pack. Issue the command:
 
-    $ slideshow -f http://github.com/geraldb/slideshow-s5-themes/raw/master/s5themes.txt
+    $ slideshow -f s5themes
+
+Or as an alternative clone the template pack using `git`. Issue the commands:
+
+    $ cd ~/.slideshow/templates
+    $ git clone git://github.com/geraldb/slideshow-s5-themes.git
 
 To check if the new template got installed, use the `-l/--list` switch/command:
 
@@ -37,58 +55,63 @@ To check if the new template got installed, use the `-l/--list` switch/command:
 Listing something like:
 
     Installed templates include:
-       s5themes.txt (/home/gerald/.slideshow/templates/s5themes/s5themes.txt)
+       s5themes (~/.slideshow/templates/s5themes/s5themes.txt)
 
-Now you're ready to use it using the `-t/--template` switch. Example:
+Tip: To get started use the welcome quick starter sample. Issue the command:
 
-    $ slideshow -t s5themes.txt tutorial
+    $ slideshow -q
 
-That's it. 
+Now you will have a copy of the `welcome.text` Quick Starter sample
+in Markdown in your working folder.
+
+```
+%%%%%%%%%%%%%%%%%%
+%% Some Headers
+
+Title: Slide Show (S9) 10-Minute Tutorial
 
 
+%%%%%%%%%%%%%%
+%% Let's go.
 
-## Troubleshooting 
+Slide Show (S9) 10-Minute Tutorial
+==================================
 
-Trouble downloading? Do you have a direct internet connection? If not, configure your proxy using
-the `HTTP_PROXY` environment variable. Sample:
+Agenda
 
-    HTTP_PROXY=http://234.445.454:4341
+* What's Slide Show (S9)? 
+* Wiki-Style Markup Language - Markdown, Textile
+* How it works - Just press F11! 
+* What's S5? What's S6?
+* Gradient Themes Using "Loss-Free" Vector Graphics in S9 
+* Turn Your Online Wiki Pages into Slide Shows - Sputnik Case Study
 
-Or with user credentials (that is, login and password):
 
-    HTTP_PROXY=http://gerald:topsecret@234.445.454:4341
+What's Slide Show (S9)?
+=======================
 
-If all fails, you can always download the template pack on your own (using lets say `git` itself)
-and than move the souces into your templates folder (that is, `~/.slideshow/templates`).
+### What? 
 
+A Free Web Alternative to PowerPoint and KeyNote in Ruby
+
+
+### Getting Started in 1-2-3 Easy Steps
+
+* Step 1: Author your slides in plain text using a wiki-style markup language
+* Step 2: Generate your slide show using the `slideshow` gem
+* Step 3: Open up your slide show in your browser and hit the space bar to flip through your slides
+* That's it. Showtime!
+```
+
+Showtime! Let's use the `-t/--template` switch to generate the
+sample slide show. Example:
+
+    $ slideshow -t s5themes welcome.text
+
+Open up the generated `welcome.html` page in your browser. Voila. That's it.
 
 ## Questions? Comments?
 
-Questions? Comments? Send them along to the [Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow).
+Questions? Comments?
+Send them along to the [Free Web Slide Show Alternatives (S5, S6, S9, Slidy And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow).
 Thanks!
-
-## Appendix: Sample Slide Show Source in Markdown 
-
-    theme: blue
-    author: Your Name Here
-    company: Your Company Here
-    title: Your Slide Show Title Here
-    subtitle: Your Subtitle Here
-    footer: Your Footer Here
-    subfooter: Your Subfooter Here
-    
-    
-    Slide Title Here
-    ================
-    
-    - Point One Here
-    - Point Two Here
-    
-    Another Slide Title Here
-    ========================
-    
-    Questions? Comments?
-    
-    Send them along to the
-    [Free Web Slide Show Alternatives (S5, S6, S9 And Friends) Forum/Mailing List](http://groups.google.com/group/webslideshow)
-    Thanks!
