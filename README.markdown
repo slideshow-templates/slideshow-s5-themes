@@ -29,12 +29,6 @@ following headers in `slides.html.erb`:
 
 Use the `theme` header to choose your S5 theme. Packaged themes include
 `default`, `blue`, `i18n` and `pixel`.
-
-See the original [S5: An Introduction](http://meyerweb.com/eric/tools/s5/s5-intro.html) slides in action or
-see the [Slide Show (S9) Tutorial (Blue Theme)](http://slideshow.rubyforge.org/s5/tutorial.blue.html),
-[(I18N Theme)](http://slideshow.rubyforge.org/s5/tutorial.i18n.html),
-[(Pixel Theme)](http://slideshow.rubyforge.org/s5/tutorial.pixel.html) 
-slides generated using this template pack.
  
  
 ## Try It Yourself - How To Use the S5 Themes Template Pack
@@ -74,8 +68,7 @@ Title: Slide Show (S9) 10-Minute Tutorial
 %%%%%%%%%%%%%%
 %% Let's go.
 
-Slide Show (S9) 10-Minute Tutorial
-==================================
+# Slide Show (S9) 10-Minute Tutorial
 
 Agenda
 
@@ -84,11 +77,9 @@ Agenda
 * How it works - Just press F11! 
 * What's S5? What's S6?
 * Gradient Themes Using "Loss-Free" Vector Graphics in S9 
-* Turn Your Online Wiki Pages into Slide Shows - Sputnik Case Study
 
 
-What's Slide Show (S9)?
-=======================
+# What's Slide Show (S9)?
 
 ### What? 
 
@@ -98,7 +89,7 @@ A Free Web Alternative to PowerPoint and KeyNote in Ruby
 ### Getting Started in 1-2-3 Easy Steps
 
 * Step 1: Author your slides in plain text using a wiki-style markup language
-* Step 2: Generate your slide show using the `slideshow` gem
+* Step 2: Build your slide show using the `slideshow` gem
 * Step 3: Open up your slide show in your browser and hit the space bar to flip through your slides
 * That's it. Showtime!
 ```
