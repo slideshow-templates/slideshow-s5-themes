@@ -1,0 +1,21 @@
+{
+  "name": "slideshow-s5-themes",
+  "version": "0.1.0",
+  "description": "S5 Themes (Blue, I18N and Pixel) - Slide Show (S9) Template Pack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slideshow-templates/slideshow-s5-themes.git"
+  },
+  "keywords": [
+    "slideshow",
+    "s5",
+    "s9",
+    "slideshow-templates"
+  ],
+  "author": "Gerald Bauer",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/slideshow-templates/slideshow-s5-themes/issues"
+  },
+  "homepage": "https://github.com/slideshow-templates/slideshow-s5-themes"
+}
